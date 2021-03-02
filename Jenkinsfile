@@ -33,6 +33,9 @@ pipeline {
                 sh './test/test-wrapper.sh "Load tests" 15'
             }
         }
+        
+        
+        Jenkins
         stage('Build') {
             when {
                 branch 'master'
