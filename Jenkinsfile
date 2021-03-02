@@ -34,8 +34,6 @@ pipeline {
             }
         }
         
-        
-        Jenkins
         stage('Build') {
             when {
                 branch 'master'
