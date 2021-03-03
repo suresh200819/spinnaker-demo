@@ -27,3 +27,4 @@ echo "Building version $1"
 # build it in 'build' so cleanup is easier (delete the build dir)
 cd build
 dpkg-deb --build $buildfolder
+end
