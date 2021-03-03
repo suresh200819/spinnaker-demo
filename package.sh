@@ -10,8 +10,6 @@
 # Expects to run after 'build.sh' script which manages the 'build' and
 # 'build/html' directories
 
-apt-get update
-
 version=$1
 buildfolder=spinnaker-demo_$version
 debdir=build/$buildfolder
